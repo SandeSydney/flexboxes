@@ -5,6 +5,10 @@
     padding: 0%;
 }
 
+body p{
+    font-size: 15px;
+}
+
 .container{
     width: 99.7vw;
     height: 98vh;
