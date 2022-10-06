@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -10,6 +12,7 @@
     justify-content: center;
     align-items: center;
     background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
 }
 
 .content{
@@ -21,8 +24,8 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    border-radius: 10px;
-    padding: 1%;
+    border-radius: 12px;
+    padding: 0% 1%;
 }
 
 .qr-body img{
@@ -43,8 +46,10 @@
 
 .text-body h4{
     color: hsl(218, 44%, 22%);
+    font-weight: 700;
 }
 
 .text-body p{
     color: hsl(220, 15%, 55%);
+    font-weight: 400;
 }
